@@ -20,15 +20,3 @@
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
     background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg)
 }
-
-
-/*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
-[class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
-    display: block;
-    width: 50px;
-    height: 50px;
-    content: '';
-    background-size: 230%;    /*how zoomed in or zoomed out your image is*/
-    background-repeat: no-repeat;
-    background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
-}
